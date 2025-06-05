@@ -31,13 +31,16 @@ This repository contains ROS2 packages developed for the Quori robot platform. T
    ```bash
    git clone https://github.com/jaydengrunge/quori.git
 
-3. Install dependencies:
+2. Install dependencies:
+   ```bash
    sudo apt update
 
-4. Build the packages with:
+3. Build the packages with:
+   ```bash
    colcon build
 
-5. Source the worspace before launching:
+4. Source the worspace before launching:
+   ```bash
    source install/setup.bash
 
 ---

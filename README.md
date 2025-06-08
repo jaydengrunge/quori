@@ -8,13 +8,12 @@ This repository contains ROS2 packages developed for the Quori robot platform. T
 
 ### **Packages**
 - **person_detection**: 
-  - Nodes for detecting people using laser scans and point clouds, including clustering and filtering.
-  - Includes utilities for detecting the closest person and publishing their location, and turning to face them.
-  - Configurable via launch files and RViz visualization.
+  - Nodes for detecting people using laser scans and point clouds.
+  - Detects the closest person and publishes their location, and turns to face them.
 
 - **ros2_teleop**: 
   - Teleoperation utilities for controlling the Quori robot.
-  - Provides nodes for sending velocity commands and interacting with the robot's base controller.
+  - Provides nodes for sending velocity commands from a controller to the robots base controller.
   - Code updated for ROS 2 allowing for easy editing and greater capability.
 
 ---
@@ -55,5 +54,3 @@ This repository contains ROS2 packages developed for the Quori robot platform. T
 2. Launch the person detection node:
    ```bash
    ros2 launch person_detection person_detection_launch.py
-
-

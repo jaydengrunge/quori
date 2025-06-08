@@ -48,5 +48,12 @@ This repository contains ROS2 packages developed for the Quori robot platform. T
 ## Usage
 
 ### Launch Files:
+1. Launch the teleop node:
+   ```bash
+   ros2 launch ros2_teleop ros2_teleop_launch.py
+
+2. Launch the person detection node:
+   ```bash
+   ros2 launch person_detection person_detection_launch.py
 
 
